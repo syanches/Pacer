@@ -15,7 +15,7 @@ struct PacePickerView: View {
             Picker(selection: $selection) {
                 ForEach(Array(stride(from: 3.0, through: 7.0, by: 0.25)), id: \.self) { pace in
                     Text(pace.paceToString)
-                        .font(.title)
+                        .font(.headline)
                 }
             } label: {
                 Text("Choose your pace")

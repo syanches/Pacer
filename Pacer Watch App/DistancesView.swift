@@ -16,7 +16,7 @@ struct DistancesView: View {
             Picker(selection: $selection) {
                 ForEach(Distance.allCases) { distance in
                     Text(distance.rawValue)
-                        .font(.title)
+                        .font(.headline)
                         .tag(distance)
                 }
             } label: {
