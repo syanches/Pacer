@@ -7,7 +7,11 @@
 
 import Foundation
 
-enum Distance: String {
+enum Distance: String, CaseIterable, Identifiable {
+    var id: Int {
+        Int(KMs)
+    }
+    
     case fiveK = "5K"
     case tenK = "10K"
     case half = "21.1K"
@@ -15,17 +19,25 @@ enum Distance: String {
 }
 
 extension Distance {
-    var splits: Int {
+    var KMs: Double {
         switch self {
         case .fiveK:
-            return 5
+            return 5.0
         case .tenK:
-            return 10
+            return 10.0
         case .half:
-            return 22
+            return 21.1
         case .marathon:
-            return 43
+            return 42.2
         }
-
+    }
+    
+    var extendedSplits: Bool {
+        switch self {
+        case .fiveK, .tenK:
+            return false
+        case .half, .marathon:
+            return true
+        }
     }
 }

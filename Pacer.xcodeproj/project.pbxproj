@@ -14,9 +14,8 @@
 		28EBDEC6297DAA3300D50CDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EBDEC5297DAA3300D50CDC /* Preview Assets.xcassets */; };
 		28EBDED1297DAE9D00D50CDC /* DistancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDED0297DAE9D00D50CDC /* DistancesView.swift */; };
 		28EBDED3297DB51000D50CDC /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDED2297DB51000D50CDC /* Distance.swift */; };
-		28EBDED5297DB5CA00D50CDC /* DistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDED4297DB5CA00D50CDC /* DistanceView.swift */; };
 		28EBDED7297DB81C00D50CDC /* PacePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDED6297DB81C00D50CDC /* PacePickerView.swift */; };
-		28EBDED9297DBE7100D50CDC /* PacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDED8297DBE7100D50CDC /* PacesView.swift */; };
+		28EBDED9297DBE7100D50CDC /* SplitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDED8297DBE7100D50CDC /* SplitsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +51,8 @@
 		28EBDEC5297DAA3300D50CDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28EBDED0297DAE9D00D50CDC /* DistancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistancesView.swift; sourceTree = "<group>"; };
 		28EBDED2297DB51000D50CDC /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
-		28EBDED4297DB5CA00D50CDC /* DistanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceView.swift; sourceTree = "<group>"; };
 		28EBDED6297DB81C00D50CDC /* PacePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacePickerView.swift; sourceTree = "<group>"; };
-		28EBDED8297DBE7100D50CDC /* PacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacesView.swift; sourceTree = "<group>"; };
+		28EBDED8297DBE7100D50CDC /* SplitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +89,7 @@
 				28EBDEBE297DAA3100D50CDC /* PacerApp.swift */,
 				28EBDED2297DB51000D50CDC /* Distance.swift */,
 				28EBDEC0297DAA3100D50CDC /* MainView.swift */,
-				28EBDED8297DBE7100D50CDC /* PacesView.swift */,
-				28EBDED4297DB5CA00D50CDC /* DistanceView.swift */,
+				28EBDED8297DBE7100D50CDC /* SplitsView.swift */,
 				28EBDED6297DB81C00D50CDC /* PacePickerView.swift */,
 				28EBDED0297DAE9D00D50CDC /* DistancesView.swift */,
 				28EBDEC2297DAA3300D50CDC /* Assets.xcassets */,
@@ -208,10 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28EBDED3297DB51000D50CDC /* Distance.swift in Sources */,
-				28EBDED5297DB5CA00D50CDC /* DistanceView.swift in Sources */,
 				28EBDEC1297DAA3100D50CDC /* MainView.swift in Sources */,
 				28EBDED1297DAE9D00D50CDC /* DistancesView.swift in Sources */,
-				28EBDED9297DBE7100D50CDC /* PacesView.swift in Sources */,
+				28EBDED9297DBE7100D50CDC /* SplitsView.swift in Sources */,
 				28EBDEBF297DAA3100D50CDC /* PacerApp.swift in Sources */,
 				28EBDED7297DB81C00D50CDC /* PacePickerView.swift in Sources */,
 			);

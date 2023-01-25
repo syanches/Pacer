@@ -8,33 +8,30 @@
 import SwiftUI
 
 struct DistancesView: View {
-    var pace: Double
+    @State var selection: Distance = .fiveK
+    @Binding var pace: Double
     
     var body: some View {
         VStack {
-            HStack {
-                NavigationLink(destination: PacesView(pace: pace, distance: .fiveK)) {
-                    DistanceView(distance: .fiveK)
+            Picker(selection: $selection) {
+                ForEach(Distance.allCases) { distance in
+                    Text(distance.rawValue)
+                        .font(.title)
+                        .tag(distance)
                 }
-                NavigationLink(destination: {}) {
-                    DistanceView(distance: .tenK)
-                }
+            } label: {
+                Text("Pick Race")
+                    .font(.headline)
             }
-            HStack {
-                NavigationLink(destination: {}) {
-                    DistanceView(distance: .half)
-                }
-                NavigationLink(destination: {}) {
-                    DistanceView(distance: .marathon)
-                }
+            NavigationLink(destination: SplitsView(pace: pace, distance: selection)) {
+                Text("To Splits")
             }
         }
-        .navigationTitle("Choose race")
     }
 }
 
 struct DistancesView_Previews: PreviewProvider {
     static var previews: some View {
-        DistancesView(pace: 5.0)
+        DistancesView(pace: .constant(5.0))
     }
 }
