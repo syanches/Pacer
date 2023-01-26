@@ -13,7 +13,7 @@ struct PacePickerView: View {
     var body: some View {
         VStack {
             Picker(selection: $selection) {
-                ForEach(Array(stride(from: 3.0, through: 7.0, by: 0.25)), id: \.self) { pace in
+                ForEach(Pace.allPaces, id: \.self) { pace in
                     Text(pace.paceToString)
                         .font(.headline)
                 }
@@ -21,22 +21,10 @@ struct PacePickerView: View {
                 Text("Choose your pace")
                     .font(.headline)
             }
-
-            NavigationLink(destination: DistancesView(pace: $selection)) {
+            NavigationLink(destination: DistancesView(pace: selection)) {
                 Text("To Races")
             }
         }
-        
-        
-    }
-}
-
-extension Double {
-    var paceToString: String {
-        let hours = Int(self)
-        let minutesInInt = "\(Int(60*self.truncatingRemainder(dividingBy: 1)))"
-        let minutes = minutesInInt != "0" ? minutesInInt : "00"
-        return "\(hours):\(minutes)"
     }
 }
 

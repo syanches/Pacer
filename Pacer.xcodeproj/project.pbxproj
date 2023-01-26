@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285255A729828CDB00C509F7 /* Pace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285255A629828CDB00C509F7 /* Pace.swift */; };
 		28EBDEBA297DAA3100D50CDC /* Pacer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 28EBDEB9297DAA3100D50CDC /* Pacer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		28EBDEBF297DAA3100D50CDC /* PacerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDEBE297DAA3100D50CDC /* PacerApp.swift */; };
 		28EBDEC1297DAA3100D50CDC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDEC0297DAA3100D50CDC /* MainView.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		285255A629828CDB00C509F7 /* Pace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace.swift; sourceTree = "<group>"; };
 		28EBDEB3297DAA3100D50CDC /* Pacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EBDEB9297DAA3100D50CDC /* Pacer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pacer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EBDEBE297DAA3100D50CDC /* PacerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacerApp.swift; sourceTree = "<group>"; };
@@ -66,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		285255A5298281BF00C509F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28EBDED2297DB51000D50CDC /* Distance.swift */,
+				285255A629828CDB00C509F7 /* Pace.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		28EBDEAC297DAA3000D50CDC = {
 			isa = PBXGroup;
 			children = (
@@ -86,12 +97,12 @@
 		28EBDEBD297DAA3100D50CDC /* Pacer Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				285255A5298281BF00C509F7 /* Models */,
 				28EBDEBE297DAA3100D50CDC /* PacerApp.swift */,
-				28EBDED2297DB51000D50CDC /* Distance.swift */,
 				28EBDEC0297DAA3100D50CDC /* MainView.swift */,
-				28EBDED8297DBE7100D50CDC /* SplitsView.swift */,
 				28EBDED6297DB81C00D50CDC /* PacePickerView.swift */,
 				28EBDED0297DAE9D00D50CDC /* DistancesView.swift */,
+				28EBDED8297DBE7100D50CDC /* SplitsView.swift */,
 				28EBDEC2297DAA3300D50CDC /* Assets.xcassets */,
 				28EBDEC4297DAA3300D50CDC /* Preview Content */,
 			);
@@ -205,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28EBDED3297DB51000D50CDC /* Distance.swift in Sources */,
+				285255A729828CDB00C509F7 /* Pace.swift in Sources */,
 				28EBDEC1297DAA3100D50CDC /* MainView.swift in Sources */,
 				28EBDED1297DAE9D00D50CDC /* DistancesView.swift in Sources */,
 				28EBDED9297DBE7100D50CDC /* SplitsView.swift in Sources */,

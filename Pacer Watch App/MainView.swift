@@ -9,9 +9,10 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             NavigationLink(destination: PacePickerView()) {
                 Text("Pace to splits")
+                    .font(.system(size: 20))
             }
             .navigationTitle("Choose mode")
             .navigationBarTitleDisplayMode(.inline)

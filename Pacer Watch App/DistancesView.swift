@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct DistancesView: View {
-    @State var selection: Distance = .fiveK
-    @Binding var pace: Double
+    @State var selection: Distance = Distance.allCases[0]
+    var pace: Double
     
     var body: some View {
         VStack {
             Picker(selection: $selection) {
                 ForEach(Distance.allCases) { distance in
-                    Text(distance.rawValue)
+                    Text(distance.label)
                         .font(.headline)
                         .tag(distance)
                 }
@@ -32,6 +32,6 @@ struct DistancesView: View {
 
 struct DistancesView_Previews: PreviewProvider {
     static var previews: some View {
-        DistancesView(pace: .constant(5.0))
+        DistancesView(pace: 5.0)
     }
 }
