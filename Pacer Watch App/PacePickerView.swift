@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PacePickerView: View {
-    @State private var selection: Double = 3.0
+    @State private var selection: Double = Pace.allPaces[0]
     
     var body: some View {
         VStack {
