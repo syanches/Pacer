@@ -30,8 +30,6 @@ struct DistancesView: View {
     }
 }
 
-struct DistancesView_Previews: PreviewProvider {
-    static var previews: some View {
-        DistancesView(pace: 5.0)
-    }
+#Preview {
+    DistancesView(pace: Pace.allPaces.randomElement()!)
 }

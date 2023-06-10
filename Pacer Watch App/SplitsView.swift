@@ -41,8 +41,6 @@ struct SplitsView: View {
     }
 }
 
-struct PacesView_Previews: PreviewProvider {
-    static var previews: some View {
-        SplitsView(pace: Pace.allPaces.randomElement()!, distance: Distance.allCases.randomElement()!)
-    }
+#Preview {
+    SplitsView(pace: Pace.allPaces.randomElement()!, distance: Distance.allCases.randomElement()!)
 }

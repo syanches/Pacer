@@ -28,8 +28,6 @@ struct PacePickerView: View {
     }
 }
 
-struct PacePickerView_Previews: PreviewProvider {
-    static var previews: some View {
-        PacePickerView()
-    }
+#Preview {
+    PacePickerView()
 }
