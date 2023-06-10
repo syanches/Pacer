@@ -15,7 +15,8 @@ struct MainView: View {
                     .font(.system(size: 20))
             }
             .navigationTitle("Choose mode")
-            .navigationBarTitleDisplayMode(.inline)
+            .containerBackground(.blue.gradient, for: .navigation)
+//            .navigationBarTitleDisplayMode(.large)
         }
     }
 }
