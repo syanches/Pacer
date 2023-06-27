@@ -28,6 +28,7 @@ struct SplitsView: View {
                     Text(Pace.convertTime(fullSeconds: seconds))
                 }
             }
+            .containerBackground(.blue.gradient, for: .navigation)
             if distance.extendedSplits {
                 HStack {
                     Text("Finish")
@@ -37,7 +38,8 @@ struct SplitsView: View {
             }
         }
         .navigationTitle("Race Splits")
-        .navigationBarTitleDisplayMode(.large)
+//        .navigationBarTitleDisplayMode(.large)
+        .environment(\.defaultMinListRowHeight, 40)
     }
 }
 

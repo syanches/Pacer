@@ -10,7 +10,7 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         NavigationStack {
-            NavigationLink(destination: PacePickerView()) {
+            NavigationLink(destination: PickersView()) {
                 Text("Pace to splits")
                     .font(.system(size: 20))
             }
