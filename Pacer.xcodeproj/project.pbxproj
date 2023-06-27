@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		285255A729828CDB00C509F7 /* Pace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285255A629828CDB00C509F7 /* Pace.swift */; };
+		2896EC012A4B724C006C0DA9 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2896EC002A4B724C006C0DA9 /* TimeView.swift */; };
 		28C5D6722A4B682F00A68A88 /* PickersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5D6712A4B682F00A68A88 /* PickersView.swift */; };
 		28EBDEBA297DAA3100D50CDC /* Pacer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 28EBDEB9297DAA3100D50CDC /* Pacer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		28EBDEBF297DAA3100D50CDC /* PacerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDEBE297DAA3100D50CDC /* PacerApp.swift */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		285255A629828CDB00C509F7 /* Pace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace.swift; sourceTree = "<group>"; };
+		2896EC002A4B724C006C0DA9 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		28C5D6712A4B682F00A68A88 /* PickersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersView.swift; sourceTree = "<group>"; };
 		28EBDEB3297DAA3100D50CDC /* Pacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EBDEB9297DAA3100D50CDC /* Pacer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pacer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 				28EBDED6297DB81C00D50CDC /* PacePickerView.swift */,
 				28C5D6712A4B682F00A68A88 /* PickersView.swift */,
 				28EBDED0297DAE9D00D50CDC /* DistancesView.swift */,
+				2896EC002A4B724C006C0DA9 /* TimeView.swift */,
 				28EBDED8297DBE7100D50CDC /* SplitsView.swift */,
 				28EBDEC2297DAA3300D50CDC /* Assets.xcassets */,
 				28EBDEC4297DAA3300D50CDC /* Preview Content */,
@@ -223,6 +226,7 @@
 				285255A729828CDB00C509F7 /* Pace.swift in Sources */,
 				28EBDEC1297DAA3100D50CDC /* MainView.swift in Sources */,
 				28EBDED1297DAE9D00D50CDC /* DistancesView.swift in Sources */,
+				2896EC012A4B724C006C0DA9 /* TimeView.swift in Sources */,
 				28EBDED9297DBE7100D50CDC /* SplitsView.swift in Sources */,
 				28EBDEBF297DAA3100D50CDC /* PacerApp.swift in Sources */,
 				28EBDED7297DB81C00D50CDC /* PacePickerView.swift in Sources */,

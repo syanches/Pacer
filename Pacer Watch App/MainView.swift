@@ -14,9 +14,11 @@ struct MainView: View {
                 Text("Pace to splits")
                     .font(.system(size: 20))
             }
+            NavigationLink(destination: TimeView()) {
+                Text("Time to splits")
+            }
             .navigationTitle("Choose mode")
             .containerBackground(.blue.gradient, for: .navigation)
-//            .navigationBarTitleDisplayMode(.large)
         }
     }
 }
