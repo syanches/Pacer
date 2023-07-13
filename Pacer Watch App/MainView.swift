@@ -16,6 +16,7 @@ struct MainView: View {
             }
             NavigationLink(destination: TimeView()) {
                 Text("Time to splits")
+                    .font(.system(size: 20))
             }
             .navigationTitle("Choose mode")
             .containerBackground(.blue.gradient, for: .navigation)
