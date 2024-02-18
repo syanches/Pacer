@@ -10,14 +10,14 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         NavigationStack {
-            NavigationLink(destination: PickersView()) {
-                Text("Pace to splits")
+            NavigationLink(destination: PickersView(mode: .race)) {
+                Text("Race")
                     .font(.system(size: 20))
             }
-//            NavigationLink(destination: TimeView()) {
-//                Text("Time to splits")
-//                    .font(.system(size: 20))
-//            }
+            NavigationLink(destination: PickersView(mode: .training)) {
+                Text("Training")
+                    .font(.system(size: 20))
+            }
             .navigationTitle("Choose mode")
             .containerBackground(.blue.gradient, for: .navigation)
         }
