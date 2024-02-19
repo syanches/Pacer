@@ -17,6 +17,14 @@ enum Distance: Double, CaseIterable, Identifiable {
     var id: Int {
         Int(rawValue)
     }
+    
+    static private var minDistance = 200
+    static private var maxDistance = 2000
+    static private var distanceDiff = 100
+    
+    static var allDistances: Array<Int> {
+        Array(stride(from: minDistance, through: maxDistance, by: distanceDiff))
+    }
 }
 
 extension Distance {

@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		285255A729828CDB00C509F7 /* Pace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285255A629828CDB00C509F7 /* Pace.swift */; };
-		28C5D6722A4B682F00A68A88 /* PickersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5D6712A4B682F00A68A88 /* PickersView.swift */; };
+		28967ABD2B83724B00D3ABBC /* TrainingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28967ABC2B83724B00D3ABBC /* TrainingModeView.swift */; };
+		28967ABF2B8375F900D3ABBC /* TrainingSplitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28967ABE2B8375F900D3ABBC /* TrainingSplitsView.swift */; };
+		28C5D6722A4B682F00A68A88 /* RaceModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5D6712A4B682F00A68A88 /* RaceModeView.swift */; };
 		28EBDEBA297DAA3100D50CDC /* Pacer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 28EBDEB9297DAA3100D50CDC /* Pacer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		28EBDEBF297DAA3100D50CDC /* PacerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDEBE297DAA3100D50CDC /* PacerApp.swift */; };
 		28EBDEC1297DAA3100D50CDC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDEC0297DAA3100D50CDC /* MainView.swift */; };
@@ -44,7 +46,9 @@
 
 /* Begin PBXFileReference section */
 		285255A629828CDB00C509F7 /* Pace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace.swift; sourceTree = "<group>"; };
-		28C5D6712A4B682F00A68A88 /* PickersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersView.swift; sourceTree = "<group>"; };
+		28967ABC2B83724B00D3ABBC /* TrainingModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModeView.swift; sourceTree = "<group>"; };
+		28967ABE2B8375F900D3ABBC /* TrainingSplitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSplitsView.swift; sourceTree = "<group>"; };
+		28C5D6712A4B682F00A68A88 /* RaceModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceModeView.swift; sourceTree = "<group>"; };
 		28EBDEB3297DAA3100D50CDC /* Pacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EBDEB9297DAA3100D50CDC /* Pacer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pacer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EBDEBE297DAA3100D50CDC /* PacerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacerApp.swift; sourceTree = "<group>"; };
@@ -98,8 +102,10 @@
 				285255A5298281BF00C509F7 /* Models */,
 				28EBDEBE297DAA3100D50CDC /* PacerApp.swift */,
 				28EBDEC0297DAA3100D50CDC /* MainView.swift */,
-				28C5D6712A4B682F00A68A88 /* PickersView.swift */,
+				28C5D6712A4B682F00A68A88 /* RaceModeView.swift */,
+				28967ABC2B83724B00D3ABBC /* TrainingModeView.swift */,
 				28EBDED8297DBE7100D50CDC /* SplitsView.swift */,
+				28967ABE2B8375F900D3ABBC /* TrainingSplitsView.swift */,
 				28EBDEC2297DAA3300D50CDC /* Assets.xcassets */,
 				28EBDEC4297DAA3300D50CDC /* Preview Content */,
 			);
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C5D6722A4B682F00A68A88 /* PickersView.swift in Sources */,
+				28C5D6722A4B682F00A68A88 /* RaceModeView.swift in Sources */,
+				28967ABF2B8375F900D3ABBC /* TrainingSplitsView.swift in Sources */,
+				28967ABD2B83724B00D3ABBC /* TrainingModeView.swift in Sources */,
 				28EBDED3297DB51000D50CDC /* Distance.swift in Sources */,
 				285255A729828CDB00C509F7 /* Pace.swift in Sources */,
 				28EBDEC1297DAA3100D50CDC /* MainView.swift in Sources */,

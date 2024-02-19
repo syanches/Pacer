@@ -10,11 +10,11 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         NavigationStack {
-            NavigationLink(destination: PickersView(mode: .race)) {
+            NavigationLink(destination: RaceModeView()) {
                 Text("Race")
                     .font(.system(size: 20))
             }
-            NavigationLink(destination: PickersView(mode: .training)) {
+            NavigationLink(destination: TrainingModeView()) {
                 Text("Training")
                     .font(.system(size: 20))
             }
