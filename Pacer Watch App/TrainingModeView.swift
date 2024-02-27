@@ -35,7 +35,7 @@ struct TrainingModeView: View {
                     .font(.caption)
             }
             .pickerStyle(.navigationLink)
-            NavigationLink(destination: TrainingSplitsView(pace: pace, distance: distance)) {
+            NavigationLink(destination: TrainingSplitsView(pace: pace, distance: Double(distance))) {
                 Text("To splits")
             }
         }

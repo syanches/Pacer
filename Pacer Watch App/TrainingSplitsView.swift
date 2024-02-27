@@ -9,23 +9,28 @@ import SwiftUI
 
 struct TrainingSplitsView: View {
     var pace: Double
-    var distance: Int
+    var distance: Double
     
-    var totalSeconds: Int {
-        Int(Double(distance/1000)*pace*60)
-    }
-    var secondsForOneLap: Int {
-        Int((Double(totalSeconds) / Double(laps)).rounded())
+    var totalSeconds: Double {
+        distance/1000*pace*60
     }
     
-    var laps: Int {
-        Int(distance / 200)
+    var secondsForOneLap: Double {
+        (totalSeconds / laps)
+    }
+    
+    var laps: Double {
+        distance / 200
+    }
+    
+    var extendedSplits: Bool {
+        distance.truncatingRemainder(dividingBy: 200) != 0
     }
     
     var body: some View {
         List {
-            ForEach(1..<laps+1, id: \.self) { split in
-                let seconds = split*secondsForOneLap
+            ForEach(1..<Int(laps)+1, id: \.self) { split in
+                let seconds = split*Int(secondsForOneLap)
                 HStack {
                     Text("\(split) lap")
                     Spacer()
@@ -33,6 +38,13 @@ struct TrainingSplitsView: View {
                 }
             }
             .containerBackground(.blue.gradient, for: .navigation)
+            if extendedSplits {
+                HStack {
+                    Text("Finish")
+                    Spacer()
+                    Text(Pace.convertTime(fullSeconds: Int(totalSeconds)))
+                }
+            }
         }
         .navigationTitle("Race Splits")
         .environment(\.defaultMinListRowHeight, 40)
@@ -40,6 +52,5 @@ struct TrainingSplitsView: View {
 }
 
 #Preview {
-//    TrainingSplitsView(pace: Pace.allPaces.randomElement()!, distance: Distance.allDistances.randomElement()!)
-    TrainingSplitsView(pace: 4, distance: 1100)
+    TrainingSplitsView(pace: Pace.allPaces.randomElement()!, distance: Double(Distance.allDistances.randomElement()!))
 }

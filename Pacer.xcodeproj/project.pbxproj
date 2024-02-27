@@ -10,11 +10,11 @@
 		285255A729828CDB00C509F7 /* Pace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285255A629828CDB00C509F7 /* Pace.swift */; };
 		28967ABD2B83724B00D3ABBC /* TrainingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28967ABC2B83724B00D3ABBC /* TrainingModeView.swift */; };
 		28967ABF2B8375F900D3ABBC /* TrainingSplitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28967ABE2B8375F900D3ABBC /* TrainingSplitsView.swift */; };
+		28BBB6812B8E6166007E5616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BBB6802B8E6166007E5616 /* Assets.xcassets */; };
 		28C5D6722A4B682F00A68A88 /* RaceModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5D6712A4B682F00A68A88 /* RaceModeView.swift */; };
 		28EBDEBA297DAA3100D50CDC /* Pacer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 28EBDEB9297DAA3100D50CDC /* Pacer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		28EBDEBF297DAA3100D50CDC /* PacerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDEBE297DAA3100D50CDC /* PacerApp.swift */; };
 		28EBDEC1297DAA3100D50CDC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDEC0297DAA3100D50CDC /* MainView.swift */; };
-		28EBDEC3297DAA3300D50CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EBDEC2297DAA3300D50CDC /* Assets.xcassets */; };
 		28EBDEC6297DAA3300D50CDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EBDEC5297DAA3300D50CDC /* Preview Assets.xcassets */; };
 		28EBDED3297DB51000D50CDC /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDED2297DB51000D50CDC /* Distance.swift */; };
 		28EBDED9297DBE7100D50CDC /* SplitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBDED8297DBE7100D50CDC /* SplitsView.swift */; };
@@ -48,12 +48,12 @@
 		285255A629828CDB00C509F7 /* Pace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pace.swift; sourceTree = "<group>"; };
 		28967ABC2B83724B00D3ABBC /* TrainingModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModeView.swift; sourceTree = "<group>"; };
 		28967ABE2B8375F900D3ABBC /* TrainingSplitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSplitsView.swift; sourceTree = "<group>"; };
+		28BBB6802B8E6166007E5616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28C5D6712A4B682F00A68A88 /* RaceModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceModeView.swift; sourceTree = "<group>"; };
 		28EBDEB3297DAA3100D50CDC /* Pacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EBDEB9297DAA3100D50CDC /* Pacer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pacer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EBDEBE297DAA3100D50CDC /* PacerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacerApp.swift; sourceTree = "<group>"; };
 		28EBDEC0297DAA3100D50CDC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		28EBDEC2297DAA3300D50CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28EBDEC5297DAA3300D50CDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28EBDED2297DB51000D50CDC /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
 		28EBDED8297DBE7100D50CDC /* SplitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitsView.swift; sourceTree = "<group>"; };
@@ -102,11 +102,11 @@
 				285255A5298281BF00C509F7 /* Models */,
 				28EBDEBE297DAA3100D50CDC /* PacerApp.swift */,
 				28EBDEC0297DAA3100D50CDC /* MainView.swift */,
+				28BBB6802B8E6166007E5616 /* Assets.xcassets */,
 				28C5D6712A4B682F00A68A88 /* RaceModeView.swift */,
 				28967ABC2B83724B00D3ABBC /* TrainingModeView.swift */,
 				28EBDED8297DBE7100D50CDC /* SplitsView.swift */,
 				28967ABE2B8375F900D3ABBC /* TrainingSplitsView.swift */,
-				28EBDEC2297DAA3300D50CDC /* Assets.xcassets */,
 				28EBDEC4297DAA3300D50CDC /* Preview Content */,
 			);
 			path = "Pacer Watch App";
@@ -206,8 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BBB6812B8E6166007E5616 /* Assets.xcassets in Resources */,
 				28EBDEC6297DAA3300D50CDC /* Preview Assets.xcassets in Resources */,
-				28EBDEC3297DAA3300D50CDC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +244,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -305,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -360,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pacer Watch App/Preview Content\"";
@@ -390,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pacer Watch App/Preview Content\"";
@@ -424,6 +428,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K4TX7QV6JP;
 				INFOPLIST_KEY_CFBundleDisplayName = Pacer;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syanches.Pacer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +445,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K4TX7QV6JP;
 				INFOPLIST_KEY_CFBundleDisplayName = Pacer;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syanches.Pacer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
