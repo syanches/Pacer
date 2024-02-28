@@ -46,7 +46,7 @@ struct TrainingSplitsView: View {
                 }
             }
         }
-        .navigationTitle("Race Splits")
+        .navigationTitle("Training Splits")
         .environment(\.defaultMinListRowHeight, 40)
     }
 }
